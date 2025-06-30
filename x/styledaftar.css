@@ -1,0 +1,186 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    margin-bottom: -10px;
+    margin-top: -10px;
+
+}
+.form{
+    display: block;
+    margin-bottom: 8px;
+}
+.body { 
+    font-family: sans-serif;
+    background-color: rgb(219, 219, 210);
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;}
+
+.container1 {
+    margin-top: 30px;
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.logo {
+    width: 300px;
+    height: auto;
+}
+.logoGoogle {
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.container1 h1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+.container1 p{
+    text-align: center;
+    margin-bottom: 30px;
+    color: gray;
+}
+
+.container1 label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.container1 input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.lupaPassword {
+    text-align: right;
+    margin-bottom: 20px;
+    
+}
+.lupaPassword a{color: #3b798b }
+
+.container1 a{
+    text-decoration: none;
+}
+.container1 a:hover{
+    text-decoration: underline;
+}
+
+.masuk {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: ease-in-out;
+    color: white;
+}
+.masuk:hover {opacity: 0.9;}
+.masuk{background-color: #3b798b;}
+
+.daftar {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: ease-in-out;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1.5;
+    color: white;
+}
+
+.daftar:hover {opacity: 0.9;}
+.daftar{background-color: #68a0b1;}
+
+.google{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: ease-in-out;
+}
+.google{
+    background-color: white;
+    color: #555;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1 p{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.inputNomerTel {
+    width: 103%;
+}
+
+
+.kodeNegara {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #f8f9fa;
+    
+}
+
+.kodeNegara span{
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+
+    .logo {
+        width: 160px;
+    }
+
+    .container1 {
+        padding: 20px 15px;
+    }
+
+    .container1 h1 {
+        font-size: 22px;
+    }
+
+    .container1 p {
+        font-size: 13px;
+    }
+}
