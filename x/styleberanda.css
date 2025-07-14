@@ -21,7 +21,7 @@ header {
 
 .navHeadbar a{
     font-size: large;
-    color: black;
+    color: #333333AD;
     font-weight: bold;
     text-decoration: none;
 
@@ -45,8 +45,9 @@ header {
     text-align: center;
     align-items: center;
     margin-top: 30px;
-    background-image: url(asset/images/book-store-1866988_1920.jpg) ;
-    background-size: 160%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
+    url(asset/images/all.jpg) ;
+    background-size: 100%;
     padding: 50px 40px;
     border-radius: 10px;
     margin-bottom: 60px;
@@ -82,10 +83,11 @@ header {
 }
 
 .videoCourse:hover {opacity: 0.9;}
-.videoCourse{background-color: #46555a;}
+.videoCourse{background-color:#3ECF4C;}
 
 body{
-    background-color: rgb(204, 204, 204);
+  font-family: 'Poppins', sans-serif;
+    background-color: #FFFDF3;
 }
 
 .containerWeb {
@@ -138,8 +140,8 @@ body{
 }
 
 .activ-video a.active {
-    background-color: #a5a5a5;
-  color: rgb(0, 0, 0);
+  color: #F64920;
+  font-weight: bold;
 }
 
 .active:hover {opacity: 0,8;}
@@ -187,6 +189,13 @@ body{
     border-top: 1px solid #eee; 
     padding-top: 10px;  
 }
+.kartuFooter span:last-child { 
+  font-weight: bold;
+  font-size: 18px;}
+
+.hargaCard {
+   color: #3ECF4C;
+}
 
 .logoKartu {
     border-radius: 5px;
@@ -212,8 +221,9 @@ body{
     text-align: center;
     align-items: center;
     margin-top: 30px;
-    background-image: url(asset/images/book-store-1866988_1920.jpg) ;
-    background-size: 550%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
+    url('asset/images/footer.jpg');
+    background-size: 100%;
     padding: 50px 40px;
     border-radius: 10px;
     margin-bottom: 60px;
@@ -247,7 +257,7 @@ body{
 }
 
 .subscribe:hover {opacity: 0.9;}
-.subscribe{background-color: #46555a;}
+.subscribe{background-color: #FFBD3A;}
 
 .formSubscribe {
     justify-content: center;
@@ -329,6 +339,20 @@ footer{
     width: 30px;
     height: auto;
 }
+
+.rating-bintang {
+  color: #FFBD3A; 
+  display: flex; 
+  align-items: center;
+  gap: 2px;
+}
+
+.rating-bintang span {
+  color: #555; 
+  margin-left: 8px; 
+  font-weight: bold;
+}
+
 
 
 

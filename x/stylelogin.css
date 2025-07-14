@@ -19,7 +19,7 @@ header {
 }
 .body { 
     font-family: sans-serif;
-    background-color: rgb(219, 219, 210);
+    background-color: #FFFDF3;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -75,7 +75,8 @@ min-height: 100vh;}
     margin-bottom: 20px;
     
 }
-.lupaPassword a{color: #3b798b }
+.lupaPassword a{color: #858686;
+font-weight: bold;}
 
 .container1 a{
     text-decoration: none;
@@ -97,7 +98,7 @@ min-height: 100vh;}
     color: white;
 }
 .masuk:hover {opacity: 0.9;}
-.masuk{background-color: #3b798b;}
+.masuk{background-color: #31cc3e;}
 
 .daftar {
     display: inline-block;
@@ -113,11 +114,11 @@ min-height: 100vh;}
     text-align: center;
     text-decoration: none;
     line-height: 1.5;
-    color: white;
+    color: #31cc3e;
 }
 
 .daftar:hover {opacity: 0.9;}
-.daftar{background-color: #68a0b1;}
+.daftar{background-color: #cbe6c6;}
 
 .google{
     width: 100%;
